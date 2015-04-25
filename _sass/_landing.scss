@@ -1,3 +1,6 @@
+body {
+  padding: 0 $spacing-unit;
+}
 .page-content {
   height: $content-min-height;
   background: #eee;
@@ -24,6 +27,7 @@
 .profile {
   text-align: center;
   padding: $spacing-unit;
+  margin-top: -($half-avatar-size + 20px);
 
   .heading {
     font-weight: 700;
@@ -115,6 +119,7 @@
 
   .page-content {
     margin-top: -($half-content-max-height - $half-avatar-size);
+    margin-bottom: ($half-content-max-height - $half-avatar-size);
   }
 
 }
