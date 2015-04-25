@@ -1,0 +1,35 @@
+# Site settings
+title: Azizur Rahman
+description: > # this means to ignore newlines until "baseurl:"
+  Senior Web Application Developer at BBC Homepage. Developing in Scala, Play Framework, NodeJS, Express, MeteorJS, AngularJS, WordPress Specialist, PHP, mySQL, JavaScript, SASS/CSS
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://azizur.com" # the base hostname & protocol for your site
+
+social-icons:
+ - title: GitHub
+   username: azizur
+   url: https://github.com
+   class: github
+ - title: Twitter
+   username: azizur
+   url: https://twitter.com
+   class: twitter
+ - title: LinkedIn
+   username: azizurrahman
+   url: https://uk.linkedin.com/in
+   class: linkedin
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Sass settings
+sass:
+  style: :compressed
+
+# Compress HTML
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all

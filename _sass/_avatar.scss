@@ -1,0 +1,44 @@
+
+.hero--profile {
+  .hero-avatar {
+     margin-top: -($half-avatar-size);
+     margin-bottom: 20px;
+     display: inline-block;
+     width: $avatar-size;
+     height: $avatar-size;
+     background-color: #FFF;
+     border: 3px solid #FFF;
+     z-index: 500;
+     position: relative;
+     border-radius: 100%;
+     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+ }
+
+ .avatar--large {
+     width: $avatar-size;
+     height: $avatar-size;
+ }
+
+
+ .avatar-image {
+     vertical-align: top;
+     width: 100%;
+     border-radius: 100%;
+     background: #F0F0F0 none repeat scroll 0% 0%;
+ }
+
+ .avatar {
+     display: block;
+     background-position: center center;
+     margin: 0px auto;
+     overflow: hidden;
+     line-height: 0;
+     background-size: cover;
+     border-radius: 100%;
+ }
+
+ .hero {
+     text-align: center;
+ }
+
+}

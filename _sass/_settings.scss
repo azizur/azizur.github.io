@@ -1,0 +1,30 @@
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:        8px;
+$spacing-unit-double: 16px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-min-width:    320px;
+$content-min-height:   300px;
+$half-content-min-width: ($content-min-width/2);
+$half-content-min-height: ($content-min-height/2);
+
+$content-max-width:    440px;
+$content-max-height:   280px;
+$half-content-max-width: ($content-max-width/2);
+$half-content-max-height: ($content-max-height/2);
+
+$avatar-size:         120px;
+$half-avatar-size:    ($avatar-size/2);

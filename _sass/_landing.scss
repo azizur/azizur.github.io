@@ -1,0 +1,120 @@
+.page-content {
+  height: $content-min-height;
+  background: #eee;
+  position: absolute;
+  margin: 0;
+
+  left: 50%;
+  top: 50%;
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.wrapper {
+  height: $content-min-height;
+  position: absolute;
+  margin: 0;
+
+  left: 50%;
+  top: 50%;
+}
+
+.profile {
+  text-align: center;
+  padding: $spacing-unit;
+
+  .heading {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.8em;
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    word-wrap: break-word;
+  }
+}
+
+.social-icons {
+  margin: $spacing-unit;
+
+  li {
+    display: inline-block;
+    text-align: left;
+    vertical-align: text-bottom;
+    list-style: none;
+    margin-right: $spacing-unit-double;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 $spacing-unit;
+    color: inherit;
+    // border: 1px solid #fefefe;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    z-index:0;
+  }
+
+  a:hover {
+    z-index:10;
+    box-shadow:rgba(0, 0, 0, 0.2) 0 4px 4px 0;
+    -webkit-box-shadow:rgba(0, 0, 0, 0.2) 0 4px 4px 0;
+    -moz-box-shadow:rgba(0, 0, 0, 0.2) 0 4px 4px 0;
+
+    .icon-twitter path {
+      fill: #00ACED;
+    }
+
+    .icon-linkedin path {
+      fill: #007FB1;
+    }
+
+    .icon--github path {
+      fill: #333333;
+    }
+
+  }
+}
+
+
+@include mq($until: mobileLandscape) {
+  .page-content,
+  .wrapper {
+    width: $content-min-width;
+    margin-top: -($half-content-min-height);
+    margin-left: -($half-content-min-width);
+  }
+}
+
+@include mq($from: mobileLandscape) {
+  .page-content,
+  .wrapper {
+    width: $content-max-width;
+    height: $content-max-height;
+    margin-top: -($half-content-max-height);
+    margin-left: -($half-content-max-width);
+  }
+}
+
+
+@include mq($from: mobileLandscape, $and: '(orientation: landscape)') {
+
+  .page-content {
+    margin-top: -($half-content-max-height - $half-avatar-size);
+  }
+
+}
