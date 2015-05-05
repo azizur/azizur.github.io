@@ -1,5 +1,5 @@
 .DS_Store
 _site
 .sass-cache
-bower_components
-!bower_components/sass-mq/_mq.scss
+_bower_components
+!_bower_components/sass-mq/_mq.scss

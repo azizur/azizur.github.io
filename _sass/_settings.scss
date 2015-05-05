@@ -16,8 +16,8 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-min-width:    98%;
-$content-min-height:   300px;
+$content-min-width:    100%;
+$content-min-height:   100%;
 $half-content-min-width: ($content-min-width/2);
 $half-content-min-height: ($content-min-height/2);
 

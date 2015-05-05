@@ -5,6 +5,12 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://azizur.com" # the base hostname & protocol for your site
 
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
 social-icons:
  - title: GitHub
    username: azizur
@@ -23,10 +29,7 @@ social-icons:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# Sass settings
-sass:
-  style: :compressed
+highlighter: pygments
 
 # Compress HTML
 compress_html:
