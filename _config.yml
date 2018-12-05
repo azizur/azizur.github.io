@@ -29,7 +29,7 @@ social-icons:
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 
 # Compress HTML
 compress_html:
