@@ -1,7 +1,7 @@
 # Site settings
 title: Azizur Rahman
 description: > # this means to ignore newlines until "baseurl:"
-  Senior Technical Architect at Big British Castle (@BBC) and CTO @mahabbawedding<br /><br />Azizur is a Senior Technical Architect, at BBC's Technology Strategy and Architecture team. He focuses on enabling conversations with the BBC using voice assistant platforms such as Amazon Alexa, Google Home, Microsoft Cortana and Apple Siri. Recently he and his team launched the "OK Beeb", BBC voice assistant.<br /><br />Outside of his day job, Azizur is building, Mahabba Wedding, a digital wedding invitation service for Muslims, helping couples announce their celebration and making it easy to manage guest RSVPs.
+  Senior Technical Architect at Big British Castle (@BBC) and CTO @mahabbawedding
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://azizur.com" # the base hostname & protocol for your site
 
